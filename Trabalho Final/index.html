@@ -1,0 +1,58 @@
+<!DOCTYPE html/>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="topo">
+      <h1>Preencha o Formulário Para o Nosso Cadastro!</h1>
+    </div>
+    <div class="meio">
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+      <form>
+        <label>Nome: <input type="text" required autofocus>*</label>
+        <label>Data de Nascimento: <input type="number" required>*</label>
+        <label>CPF: <input type="number" required>*</label>
+      <fieldset>
+        <legend>E-Mail</legend>
+        <label>E-Mail: <input type="String" required>*</label>
+        <label>Confirme Seu E-Mail: <input type="String" required>*</label><br>
+        <br>
+        <label>Senha: <input type="password" required>*</label>
+        <label>Confirme Sua Senha: <input type="password">*</label>
+      </fieldset>
+      <fieldset>
+        <legend>Demais Informações</legend>
+        <label> Endereço: <input type="text" required>*</label>
+        <label> Complemento: <input type="String" required>*</label><br>
+        <br>
+        <label> Celular: <input type="String" required>*</label>
+      </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Marque Seus Gêneros Favoritos</legend>
+          <label><input type="checkbox" name="acao" value="acao">Ação</label>
+          <label><input type="checkbox" name="aventura" value="aventura">Aventura</label>
+          <label><input type="checkbox" name="romance" value="romance">Romance</label>
+          <label><input type="checkbox" name="terror" value="terror">Terror</label>
+          <label><input type="checkbox" name="baseadoemfatosreais" value="baseadoemfatosreais">Baseados em Fatos Reais</label>
+          <label><input type="checkbox" name="animacao" value="animacao">Animação</label>
+          <label><input type="checkbox" name="comediaromantica" value="comediaromantica">Comédia Romântica</label>
+          <label><input type="checkbox" name="espionagem" value="espionagem">Espionagem</label><br>
+          <label><input type="checkbox" name="drama" value="drama">Drama</label>
+          <label><input type="checkbox" name="comedia" value="comedia">Comédia</label>
+          <label><input type="checkbox" name="ficcaocientifica" value="ficcaocientifica">Ficção Científica</label>
+          <label><input type="checkbox" name="faroeste" value="faroeste">Faroeste</label>
+          <label><input type="checkbox" name="documentario" value="documentario">Documentário</label>
+      </fieldset>
+      </div>
+      <div class="finalizar">
+      <input type="submit" name="btncadastrar" value="Cadastrar">
+      <input type="reset" name="btnlimpar" value="Limpar">
+    </form>
+    </div>
+  </body>
+</html>
